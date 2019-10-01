@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" async></script>
+</head>
+<body>
+    
+    <header>
+            <div id="header-top">
+                <div id="logo">
+                    <img src="img/777.png" alt="">
+                </div>
+                <div id="naw">
+                    <a href="#header-top">Home</a>
+                    <a href="#main">Products</a>
+                    <div><img src="img/trekking-7.png"></div>
+                </div>
+            </div>
+            <div id="title-center">
+                <div id="text">
+                    <h2>Our clothing , your comfort</h2>
+                    <h3>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                        Ut laudantium illum in officiis ullam, cumque, <br>
+                        aut nulla voluptates adipisci.</h3>
+                </div>
+            </div> 
+    </header>
+
+    <!-- main -->
+    <div id="main">
+        <div id="checkbox-main">
+            <label class="checkbox-main-container">Man
+                <input type="checkbox" id="man" onchange="check()">
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-main-container">Women
+                    <input type="checkbox"  id="women" onchange="check()">
+                    <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-main-container">Children
+                    <input type="checkbox"  id="children" onchange="check()">
+                    <span class="checkmark"></span>
+            </label>
+        </div>
+        <div id="btn">
+            <button type="button" onclick="seeAllProduct()">See all products</button>
+        </div>
+    </div>
+    <!-- end main -->
+
+    <!-- products -->
+    <div class="products">
+        <!-- man -->
+        <div class="cont-man">
+            <div class="products-type">
+                <h4>man</h4>
+                <hr>
+            </div>
+            <div class="products-list">
+                <h4>1/5</h4>
+                <div>
+                    <a href="#">&lt</a>
+                    <a href="#">&gt</a>
+                </div>
+            </div>
+            <div class="products-images">
+                <div class="products-img">
+                    <div class="img-top">
+                        <div class="img-top-size">
+                            <div class="select">
+                                <select>
+                                    <option value="" hidden disabled selected>Size</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="4">XL</option>
+                                    <option value="5">XXL</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="img-top-color">
+                            <img src="img/trekking-33.png">
+                            <img src="img/trekking-34.png">
+                            <img src="img/trekking-35.png">
+                        </div>
+                    </div>
+                    <div class="img-center">
+                        <img src="img/trekking-30.png">
+                    </div>
+                    <div class="img-bottom">
+                        <div class="img-bottom-type">
+                            <h4>T-shirts</h4>
+                        </div>
+                        <div class="img-bottom-prise">
+                            <h4>5,00$</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-img">
+                    <div class="img-top">
+                        <div class="img-top-size">
+                            <div class="select">
+                                <select>
+                                    <option value="" hidden disabled selected>Size</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="4">XL</option>
+                                    <option value="5">XXL</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="img-top-color">
+                            <img src="img/trekking-33.png">
+                            <img src="img/trekking-34.png">
+                            <img src="img/trekking-35.png">
+                        </div>
+                    </div>
+                    <div class="img-center">
+                        <img src="img/trekking-30.png">
+                    </div>
+                    <div class="img-bottom">
+                        <div class="img-bottom-type">
+                            <h4>T-shirts</h4>
+                        </div>
+                        <div class="img-bottom-prise">
+                            <h4>5,00$</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-img">
+                    <div class="img-top">
+                        <div class="img-top-size">
+                            <div class="select">
+                                <select>
+                                    <option value="" hidden disabled selected>Size</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="4">XL</option>
+                                    <option value="5">XXL</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="img-top-color">
+                            <img src="img/trekking-33.png">
+                            <img src="img/trekking-34.png">
+                            <img src="img/trekking-35.png">
+                        </div>
+                    </div>
+                    <div class="img-center">
+                        <img src="img/trekking-30.png">
+                    </div>
+                    <div class="img-bottom">
+                        <div class="img-bottom-type">
+                            <h4>T-shirts</h4>
+                        </div>
+                        <div class="img-bottom-prise">
+                            <h4>5,00$</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- man end -->
+
+        <!-- women -->
+        <div class="cont-women">
+            <div class="products-type">
+                <hr>
+                <h4 id="menuWomen">women</h4>
+                
+            </div>
+            <div class="products-list">
+                <h4>1/5</h4>
+                <div>
+                    <a href="#">&lt</a>
+                    <a href="#">&gt</a>
+                </div>
+            </div>
+            <div class="products-images">
+                <div class="products-img">
+                    <div class="img-top">
+                        <div class="img-top-size">
+                            <div class="select">
+                                <select>
+                                    <option value="" hidden disabled selected>Size</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="4">XL</option>
+                                    <option value="5">XXL</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="img-top-color">
+                            <img src="img/trekking-33.png">
+                            <img src="img/trekking-34.png">
+                            <img src="img/trekking-35.png">
+                        </div>
+                    </div>
+                    <div class="img-center">
+                        <img src="img/trekking-68.png">
+                    </div>
+                    <div class="img-bottom">
+                        <div class="img-bottom-type">
+                            <h4>T-shirts</h4>
+                        </div>
+                        <div class="img-bottom-prise">
+                            <h4>5,00$</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-img">
+                    <div class="img-top">
+                        <div class="img-top-size">
+                            <div class="select">
+                                <select>
+                                    <option value="" hidden disabled selected>Size</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="4">XL</option>
+                                    <option value="5">XXL</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="img-top-color">
+                            <img src="img/trekking-33.png">
+                            <img src="img/trekking-34.png">
+                            <img src="img/trekking-35.png">
+                        </div>
+                    </div>
+                    <div class="img-center">
+                            <img src="img/trekking-68.png">
+                    </div>
+                    <div class="img-bottom">
+                        <div class="img-bottom-type">
+                            <h4>T-shirts</h4>
+                        </div>
+                        <div class="img-bottom-prise">
+                            <h4>5,00$</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-img">
+                    <div class="img-top">
+                        <div class="img-top-size">
+                            <div class="select">
+                                <select>
+                                    <option value="" hidden disabled selected>Size</option>
+                                    <option value="1">S</option>
+                                    <option value="2">M</option>
+                                    <option value="3">L</option>
+                                    <option value="4">XL</option>
+                                    <option value="5">XXL</option>
+                                </select>
+                             </div>
+                        </div>
+                        <div class="img-top-color">
+                            <img src="img/trekking-33.png">
+                            <img src="img/trekking-34.png">
+                            <img src="img/trekking-35.png">
+                        </div>
+                    </div>
+                    <div class="img-center">
+                            <img src="img/trekking-68.png">
+                    </div>
+                    <div class="img-bottom">
+                        <div class="img-bottom-type">
+                            <h4>T-shirts</h4>
+                        </div>
+                        <div class="img-bottom-prise">
+                            <h4>5,00$</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- women end -->
+
+        <!-- children -->
+        <div class="cont-children">
+                <div class="products-type">
+                    <h4>children</h4>
+                    <hr>
+                </div>
+                <div class="products-list">
+                    <h4>1/5</h4>
+                    <div>
+                        <a href="#">&lt</a>
+                        <a href="#">&gt</a>
+                    </div>
+                </div>
+                <div class="products-images">
+                    <div class="products-img">
+                        <div class="img-top">
+                            <div class="img-top-size">
+                                <div class="select">
+                                    <select>
+                                        <option value="" hidden disabled selected>Size</option>
+                                        <option value="1">S</option>
+                                        <option value="2">M</option>
+                                        <option value="3">L</option>
+                                        <option value="4">XL</option>
+                                        <option value="5">XXL</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            <div class="img-top-color">
+                                <img src="img/trekking-33.png">
+                                <img src="img/trekking-34.png">
+                                <img src="img/trekking-35.png">
+                            </div>
+                        </div>
+                        <div class="img-center">
+                            <img src="img/trekking-54.png">
+                        </div>
+                        <div class="img-bottom">
+                            <div class="img-bottom-type">
+                                <h4>Giacket</h4>
+                            </div>
+                            <div class="img-bottom-prise">
+                                <h4>52,00$</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img">
+                        <div class="img-top">
+                            <div class="img-top-size">
+                                <div class="select">
+                                    <select>
+                                        <option value="" hidden disabled selected>Size</option>
+                                        <option value="1">S</option>
+                                        <option value="2">M</option>
+                                        <option value="3">L</option>
+                                        <option value="4">XL</option>
+                                        <option value="5">XXL</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            <div class="img-top-color">
+                                <img src="img/trekking-33.png">
+                                <img src="img/trekking-34.png">
+                                <img src="img/trekking-35.png">
+                            </div>
+                        </div>
+                        <div class="img-center">
+                                <img src="img/trekking-54.png">
+                        </div>
+                        <div class="img-bottom">
+                            <div class="img-bottom-type">
+                                <h4>Giacket</h4>
+                            </div>
+                            <div class="img-bottom-prise">
+                                <h4>52,00$</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img">
+                        <div class="img-top">
+                            <div class="img-top-size">
+                                <div class="select">
+                                    <select>
+                                        <option value="" hidden disabled selected>Size</option>
+                                        <option value="1">S</option>
+                                        <option value="2">M</option>
+                                        <option value="3">L</option>
+                                        <option value="4">XL</option>
+                                        <option value="5">XXL</option>
+                                    </select>
+                                 </div>
+                            </div>
+                            <div class="img-top-color">
+                                <img src="img/trekking-33.png">
+                                <img src="img/trekking-34.png">
+                                <img src="img/trekking-35.png">
+                            </div>
+                        </div>
+                        <div class="img-center">
+                                <img src="img/trekking-54.png">
+                        </div>
+                        <div class="img-bottom">
+                            <div class="img-bottom-type">
+                                <h4>Giacket</h4>
+                            </div>
+                            <div class="img-bottom-prise">
+                                <h4>52,00$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- children end -->
+    </div>
+    <!-- end products -->
+
+    <!-- aboutus -->
+    <div id="aboutUs">
+        <fieldset>
+            <legend>About us</legend>
+            <h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Dicta corporis eos veniam tenetur est optio <br>
+                itaque fugiat dignissimos! Suscipit nisi <br>
+                facere deleniti 
+            </h5>
+        </fieldset>
+    </div>
+    <!-- end aboutus -->
+   
+    <!-- footer -->
+    <footer>
+        <div id="twiter">
+            <img src="img/trekking-83.png" alt="">
+            <h5>Xz text</h5>
+        </div>
+        <div id="iform">
+            <div id="inform-text">
+                <h5>Trekking</h5>
+                <h6>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                    Eligendi explicabo error facere repudiandae voluptatibus <br>
+                    dicta ex maxime perspiciatis culpa, dolorum incidunt <br>
+                    possimus, odit recusandae totam aliquam quas vel <br>
+                    eveniet. Cupiditate.
+                </h6>
+            </div>
+            <div id="contact">
+                <div>
+                    <a href="#">Credits</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <h5>Design by xz</h5>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    
+</body>
+</html>
